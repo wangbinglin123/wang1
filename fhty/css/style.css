@@ -1,0 +1,558 @@
+@charset "utf-8";
+/*头部*/
+.nav img{
+	float: left;
+	height: 40px;
+	text-align: center;
+	margin-right: 31px;
+}
+.nav p{
+	float: left;
+}
+.nav a{
+	color: #4C4C4C;
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.nav span{
+	margin: 0 14px 0 16px;
+}
+.nav .out{
+	float: right;
+}
+.nav p .out_{
+	color: #0B26AE;
+}
+/*大图*/
+.datu img{
+	width: 100%;
+	text-align: center;
+	margin-top: 11px;
+	display: block;
+}
+/*小图*/
+.yiqi{
+	margin-top: 30px;
+	margin-bottom: 17px;
+	display: block;
+}
+/*小导航*/
+.xnav{
+	margin-left: 0;
+	width: 530px;
+	height: 125px;
+	border-bottom: 1px solid #6C6C6C;
+	height: 44px;
+	line-height: 44px;
+	margin-right: 70px;
+}
+.xnav a{
+	margin-right: 21px;
+	font-size: 12px;
+	color: #097B25;
+}
+.xnav .a6{
+	margin-right: 0px;
+}
+.xnav_ .xnav{
+	float: left;
+}
+.xnav_ p{
+	margin-right: 70px;
+}
+/*倒计时*/
+.dao{
+	font-size: 12px;
+	color: #097B25;
+	margin-right: 72px;
+}
+.end{
+	height: 58px;
+	font-size: 18px;
+	font-weight: bold;
+	float: right;
+}
+.end span{
+	color:  #097B25;
+	font-size: 45px;
+	vertical-align: middle;
+}
+.end .hms{
+	font-size: 12px;
+}
+.end .hms_{
+	font-size: 12px;
+	color: #097B25;
+	font-weight: normal;
+}
+/*vs对战*/
+
+.vs{
+	width: 410px;
+	height: 89px;
+	background-color: #E0E0E0;
+	float: right;
+	margin-left: 160px;
+	visibility: hidden;
+}
+.vs img{
+	margin: 0 9px;
+}
+.vs .v_s{
+	font-size: 19px;
+	color:  #097B25;
+	margin: 0 18px;
+}
+.vs .vsgame{
+	width: 410px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 22px;
+	margin-bottom: 13px;
+}
+.vs p span{
+	color: #8F8F8F;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.vs .time{
+	font-size: 12px;
+	width: 410px;
+	text-align: center;
+	display: block;
+}
+/*新闻*/
+
+.news p{
+	width: 535px;
+	height: 28px;
+	line-height: 28px;
+	color: #097B25;
+	font-size: 14px;
+	float: left;
+}
+
+.news ul{
+	width: 535px;
+	float: left;
+}
+.news li{
+	line-height: 28px;
+	color: #666666;
+	font-size: 14px;
+}
+.news h4{
+	width: 535px;
+	height: 39px;
+	line-height: 39px;
+	font-size: 24px;
+	color: #000;
+	float: left;
+}
+.news a{
+	color: #000;
+}
+.news li span{
+	margin: 0 10px 0 11px;
+}
+.news .duijue{
+	float: right;
+	position: relative;
+}
+.duijue img{
+	position: relative;
+}
+.duijue p{
+	height: 42px;
+	line-height: 42px;
+	position: absolute;
+	left: 0; bottom: 11px;
+	background-color: rgba(0,0,0,.5);
+	overflow: hidden;
+	width: 100%;
+	color: #fff;
+	font-size: 18px;
+	vertical-align: middle;
+}
+.duijue span{
+		margin-left: 50px;
+
+}
+.duijue span img{
+	margin-right: 1px;
+	vertical-align: middle;
+}
+/*新闻*/
+.news1{
+	width: 530px;
+	margin-top: 49px;
+}
+.news1 li a{
+	font-size: 14px;
+	line-height: 28px;
+	color: #2B2B2B;
+	background: no-repeat left center url(../images/fang.jpg);
+	padding-left: 17px;
+	vertical-align: middle;
+}
+.news1 .li1 a{
+	color: #000;
+	font-weight: bold;
+}
+.news1 span{
+	float: right;
+}
+
+.game{
+	float: right;
+	width: 410px;
+	margin-top: 12px;
+}
+.game .huigu{
+	float: left;
+}
+.game .shebang{
+	float: right;
+	margin-left: 5px;
+}
+.game .saicheng{
+	margin-top: 6px;
+	float: left;
+}
+.game h3{
+	color: #fff;
+	font-size: 22px;
+}
+.game .huigu_h3{
+	position: relative;
+}
+.game .huigu_h3 h3{
+	position: absolute;
+	top: 10px; left: 10px;
+}
+.game .shebang_h3{
+	position: relative;
+}
+.game .shebang_h3 h3{
+	position: absolute;
+	top: 10px; left: 230px;
+}
+.saicheng_h3{
+	position: relative;
+}
+.saicheng_h3 h3{
+	position: absolute;
+	top: 145px; left: 10px;
+}
+/*一起吐槽*/
+.tu{
+	width: 100%;
+	height: 260px;
+	background-color: #F5F5F5;
+	margin-top: 39px;
+}
+.tucao img{
+	float: left;
+	margin-right: 36px;
+}
+.tucao h4{
+	font-size: 24px;
+	color: #097C25;
+	padding-top: 34px;
+	padding-bottom: 15px;
+}
+.tucao h5{
+	padding-top: 35px;
+	padding-bottom: 12px;
+}
+.tucao p{
+	width: 486px;
+	font-size: 12px;
+}
+.tucao span{
+	background: url(../images/duihua.jpg) no-repeat;
+	font-size: 12px;
+	padding: 4px 9px;
+	color: #fff;
+}
+.tucao .xiaoxi{
+	background: no-repeat left center url(../images/xiaoxi.jpg);
+	padding-left: 22px;
+	color: #CFCFCF;
+}
+.tucao .p2{
+	margin-top: 18px;
+}
+.jifen{
+	float: right;
+	margin-right: 180px;
+	margin-top: -200px;
+	margin-left: 0;
+}
+.jifen .p1{
+	background: #097C25;
+	width: 410px;
+	line-height: 39px;
+	color: #fff;
+	font-size: 16px;
+	padding-left: 10px;
+}
+.jifen .p2{
+	line-height: 36px;
+	color: #097C25;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.jifen li{
+	line-height: 30px;
+	color: #909090;
+}
+.jifen .ul1{
+	padding-left: 36px;
+}
+.jifen ul .li1{
+	color: #000;
+}
+.jifen ul{
+	float: left;
+	margin-right: 25px;
+}
+/*独家评论*/
+.Exclusive h3{
+	margin-top: 37px;
+	margin-bottom: 40px;
+	color: #097C25;
+	font-size: 38px;
+}
+.Exclusive h3 span{
+	color: #808080;
+	font-size: 22px;
+}
+.Exclusive li{
+	width: 182px;
+	text-align: center;
+	background: #F5F5F5;
+	float: left;
+	margin-right: 22px;
+}
+.Exclusive li h6{
+	width: 137px;
+	color: #fff;
+	background: #000;
+	padding: 10px 23px 12px 22px;
+}
+.Exclusive li p{
+	padding: 0 17px 0px 15px;
+	padding-top: 20px;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+}
+.Exclusive li p img{
+	padding-top: 47px;
+}
+.Exclusive li a{
+	color: #097C25;
+}
+.Exclusive ul .li2 .li2_p2{
+	padding-top: 17px;
+	padding-bottom: 22px;
+}
+.Exclusive ul .li2 p img{
+	padding-top: 27px;
+}
+.Exclusive ul .li5{
+	margin-right: 0;
+}
+.hove{
+	width: 182px;
+	height: 320px;
+	background: #F5F5F5;
+	float: right;
+	margin-top: -200px;
+	border: 1px solid #000;
+	visibility: hidden;
+}
+.hove h6{
+	width: 137px;
+	color: #2D2D2D;
+	padding: 10px 23px 12px 22px;
+}
+.hove p{
+	padding: 0 17px 0px 15px;
+	padding-top: 20px;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+}
+/*精彩图集*/
+.Wonderful h3{
+	color: #097C25;
+	font-size: 38px;
+	margin-top: 73px;
+	margin-bottom: 50px;
+}
+.Wonderful h3 span{
+	color: #AFAFAF;
+	font-size: 22px;
+}
+.Wonderful ul{
+	width: 79px;
+	height: 440px;
+	background: #000;
+	float: left;
+}
+.Wonderful .ul li{
+	color: #fff;
+	text-align: center;
+	padding-bottom: 56px;
+}
+.Wonderful .ul .li1{
+	padding-top: 20px;
+	background: #097B25;
+}
+.Wonderful img{
+	margin-right: -3px;
+}
+
+.fen{
+	width: 100%;
+	height: 520px;
+	background: repeat-x url(../images/beijing.jpg);
+}
+.fenzu .ul li{
+	float: left;
+	background: #000;
+	color: #fff;
+	padding: 0 42px 0 45px;
+	margin-right: 1px;
+	font-size: 22px;
+	line-height: 37px;
+}
+.fenzu .ul{
+	margin-top: 45px;
+	padding-top: 80px;
+	margin-bottom: 50px;
+}
+.fenzu .ul .h{
+	margin-right: 0;
+}
+.fenzu a{
+	color: #FFF;
+}
+.fenzu_fen{
+	width: 500px;
+	height: 241px;
+	background: rgba(0,0,0,0.5);
+	padding-top: 29px;
+}
+.fenzu_fen .active{
+	font-weight: bold;
+}
+.fenzu_fen li{
+	margin-left: 34px;
+}
+.fen .fenzu_fen li{
+	color: #fff;
+	font-size: 14px;
+	line-height: 28px;
+	background: no-repeat left center url(../images/hfang.jpg);
+	padding-left: 13px;
+}
+.fen .fenzu_fen a{
+	color: #fff;
+}
+.zu ul{
+	float: left;
+}
+.zu img{
+	float: right;
+}
+.fenzu .ul li:hover{
+	height: 163px;
+	background: #056318;
+	display: block;
+
+}
+/*世界杯资料*/
+.WorldCup h3{
+	color: #097C25;
+	font-size: 38px;
+	margin-top: 76px;
+	margin-bottom: 40px;
+}
+.WorldCup h3 span{
+	color: #AFAFAF;
+	font-size: 22px;
+}
+.fuleco{
+	width: 288px;
+	height: 330px;
+	background: #F6F6F6;
+	position: relative;
+	float: left;
+}
+.fuleco img{
+	position: absolute;
+	left: 50%; top: 50%;
+	margin-top: -144px;
+	margin-left: -100px;
+}
+.fuleco p{
+	text-align: center;
+	position: relative;
+	bottom: -292px;
+	font-size: 14px;
+}
+.malaka{
+	float: left;
+}
+.malakana{
+	width: 241px;
+	height: 330px;
+	float: left;
+	background: url(../images/sxjiantou.jpg) no-repeat #097C25 right top ;
+
+}
+.malakana h6{
+	font-size: 18PX;
+	color: #fff;
+	margin-left: 31px;
+	margin-top: 58px;
+}
+.malakana p{
+	font-size: 12px;
+	line-height: 24px;
+	margin-left: 31px;
+	margin-right: 27px;
+	color: #fff;
+}
+/*脚部*/
+.footer{
+	margin-top: 73px;
+	height: 230px;
+}
+.footer p{
+	text-align: center;
+	font-size: 12px;
+	line-height: 22px;
+}
+.footer a{
+	color: #000;
+	font-size: 12px;
+}
+.footer .p1 span{
+	margin: 0 8px 0 9px;
+	color: #872B87;
+}
+
+
+
+
+
+
+
+
+
